@@ -12,7 +12,6 @@ export default function NewIncident() {
     const token = localStorage.getItem('token');
     const navigate = useNavigate();
     const incidents = useParams();
-
     const { register, handleSubmit, errors, reset } = useForm({
         defaultValues: { title: "", description: "", value: "" },
     });
@@ -27,22 +26,21 @@ export default function NewIncident() {
                 reset(response.data);
             })
         }
-
     }, [reset]);
 
     async function handleIncident({ title, description, value }, e) {
         e.preventDefault();
         const data = { title, description, value };
         try {
-            if (incidents.idIncidents) {
-                await api.put(`update_incidents/${incidents.idIncidents}`, data, {
+            if (!incidents.idIncidents) {
+                await api.post('register_incidents', data, {
                     headers: {
                         Authorization: token,
                         context: ongId
                     }
                 })
             } else {
-                await api.post('register_incidents', data, {
+                await api.put(`update_incidents/${incidents.idIncidents}`, data, {
                     headers: {
                         Authorization: token,
                         context: ongId
