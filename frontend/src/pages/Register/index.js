@@ -59,8 +59,8 @@ export default function Register() {
                         {...register('whatsapp', { required: true })}
                     />
                     <div className="input-group">
-                        <input placeholder="Cidade"  {...register('cidade', { required: true })} />
-                        <input placeholder="UF" style={{ width: 80 }} />
+                        <input placeholder="Cidade"  {...register('city', { required: true })} />
+                        <input placeholder="UF" style={{ width: 80 }} {...register('uf', { required: true })} />
                     </div>
                     <button className="button" type="submit">Cadastrar</button>
                 </form>
