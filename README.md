@@ -42,6 +42,6 @@ Sinto muito orgulho de ter conseguido acompanhar e terminar na semana proposta p
 
 Pretendo continuar os estudos e crescer nessa stack pois além de ser divertido possibilita criar muitos projetos interessantes. Gostaria de ter documentado melhor porém a correria impediu nessas situações melhor feito do que não feito.
 
-  <a href = "https://bethehero2021-frontend.herokuapp.com/"><img src="https://img.shields.io/badge/-heroku?color=blueviolet?style=for-the-badge&logo=heroku&logoColor=blueviolet" target="_blank"></a>
+  <a href = "https://bethehero2021-frontend.herokuapp.com/"><img src="https://img.shields.io/badge/-heroku-%230077B5?color=blueviolet?style=for-the-badge&logo=heroku&logoColor=blueviolet" target="_blank"></a>
     <a href="https://instagram.com/lui4ssantosdev" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/LuísAntônio" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
