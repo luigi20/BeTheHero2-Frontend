@@ -25,6 +25,11 @@ Sinto muito orgulho de ter conseguido acompanhar e terminar na semana proposta p
   <p>ReactJS foi usado para o frontend, o ReactJS para desenvolver o frontend web da aplicação, curti demais pois o processo foi ver o projeto no Figma e dar vida a ele no formato de SPA ( Single-Page Application).</p>
 </p>
 
+ <p align="center">
+  <img src="https://miro.medium.com/max/800/0*z58cqZWxu2_4q5-g.jpg" width="150" alt="PostgreSQL" align="center">
+  <p>PostgreSQL foi utilizado como banco de dados relacionável para guardar os dados da aplicação no Heroku</p>
+</p>
+
 
 ### Features Que Existiam
 
