@@ -16,7 +16,7 @@ export default function NewIncident() {
         defaultValues: { title: "", description: "", value: "" },
     });
     useEffect(() => {
-        if (incidents) {
+        if (incidents.idIncidents) {
             api.get(`/profile/${incidents.idIncidents}`, {
                 headers: {
                     Authorization: token,
