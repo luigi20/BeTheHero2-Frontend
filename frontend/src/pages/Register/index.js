@@ -86,6 +86,10 @@ export default function Register() {
                     <input placeholder="Whatsapp"
                         {...register('whatsapp', { required: true })}
                     />
+                    <select id="uf">
+                        <option value="0">UF</option>
+
+                    </select>
                     <div className="input-group">
                         <select id="uf" style={{ width: 90 }}
                             value={selectedUf}
