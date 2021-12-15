@@ -13,7 +13,7 @@ body{
     -webkit-font-smoothing: antialiased;
 }
 
-input, button, textarea,select{
+input, button, select, textarea{
     font-size: 400px 18px Roboto, sans-serif ;
 }
 
@@ -21,18 +21,9 @@ button{
     cursor:pointer;
 }
 
-form input{
+form input,select{
     height: 60px;
     width:100%;
-    color:#333;
-    border:1px solid #dcdce6;
-    border-radius: 8px;
-    padding: 0 24px;
-}
-
-form select{
-    height: 60px;
-    width:60%;
     color:#333;
     border:1px solid #dcdce6;
     border-radius: 8px;

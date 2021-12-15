@@ -53,7 +53,7 @@
     transition:opacity 0.2s;
 }
 
-.register-container .content form input{
+.register-container .content form input,select{
     margin-top:8px;
 }
 
